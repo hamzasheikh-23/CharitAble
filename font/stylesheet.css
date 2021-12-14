@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-SemiBold.eot');
+    src: local('Vistol Sans SemiBold'), local('VistolSans-SemiBold'),
+        url('VistolSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-SemiBold.woff2') format('woff2'),
+        url('VistolSans-SemiBold.woff') format('woff'),
+        url('VistolSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-Bold.eot');
+    src: local('Vistol Sans Bold'), local('VistolSans-Bold'),
+        url('VistolSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-Bold.woff2') format('woff2'),
+        url('VistolSans-Bold.woff') format('woff'),
+        url('VistolSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-BoldItalic.eot');
+    src: local('Vistol Sans Bold Italic'), local('VistolSans-BoldItalic'),
+        url('VistolSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-BoldItalic.woff2') format('woff2'),
+        url('VistolSans-BoldItalic.woff') format('woff'),
+        url('VistolSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-Black.eot');
+    src: local('Vistol Sans Black'), local('VistolSans-Black'),
+        url('VistolSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-Black.woff2') format('woff2'),
+        url('VistolSans-Black.woff') format('woff'),
+        url('VistolSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-Light.eot');
+    src: local('Vistol Sans Light'), local('VistolSans-Light'),
+        url('VistolSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-Light.woff2') format('woff2'),
+        url('VistolSans-Light.woff') format('woff'),
+        url('VistolSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-LightItalic.eot');
+    src: local('Vistol Sans Light Italic'), local('VistolSans-LightItalic'),
+        url('VistolSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-LightItalic.woff2') format('woff2'),
+        url('VistolSans-LightItalic.woff') format('woff'),
+        url('VistolSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-ThinItalic.eot');
+    src: local('Vistol Sans Thin Italic'), local('VistolSans-ThinItalic'),
+        url('VistolSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-ThinItalic.woff2') format('woff2'),
+        url('VistolSans-ThinItalic.woff') format('woff'),
+        url('VistolSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-ExtraLight.eot');
+    src: local('Vistol Sans ExtraLight'), local('VistolSans-ExtraLight'),
+        url('VistolSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-ExtraLight.woff2') format('woff2'),
+        url('VistolSans-ExtraLight.woff') format('woff'),
+        url('VistolSans-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-Thin.eot');
+    src: local('Vistol Sans Thin'), local('VistolSans-Thin'),
+        url('VistolSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-Thin.woff2') format('woff2'),
+        url('VistolSans-Thin.woff') format('woff'),
+        url('VistolSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-BlackItalic.eot');
+    src: local('Vistol Sans Black Italic'), local('VistolSans-BlackItalic'),
+        url('VistolSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-BlackItalic.woff2') format('woff2'),
+        url('VistolSans-BlackItalic.woff') format('woff'),
+        url('VistolSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-ExtraLightItalic.eot');
+    src: local('Vistol Sans ExtraLight Italic'), local('VistolSans-ExtraLightItalic'),
+        url('VistolSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-ExtraLightItalic.woff2') format('woff2'),
+        url('VistolSans-ExtraLightItalic.woff') format('woff'),
+        url('VistolSans-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-Italic.eot');
+    src: local('Vistol Sans Italic'), local('VistolSans-Italic'),
+        url('VistolSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-Italic.woff2') format('woff2'),
+        url('VistolSans-Italic.woff') format('woff'),
+        url('VistolSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-SemiBoldItalic.eot');
+    src: local('Vistol Sans SemiBold Italic'), local('VistolSans-SemiBoldItalic'),
+        url('VistolSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-SemiBoldItalic.woff2') format('woff2'),
+        url('VistolSans-SemiBoldItalic.woff') format('woff'),
+        url('VistolSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-ExtraBold.eot');
+    src: local('Vistol Sans ExtraBold'), local('VistolSans-ExtraBold'),
+        url('VistolSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-ExtraBold.woff2') format('woff2'),
+        url('VistolSans-ExtraBold.woff') format('woff'),
+        url('VistolSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-Medium.eot');
+    src: local('Vistol Sans Medium'), local('VistolSans-Medium'),
+        url('VistolSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-Medium.woff2') format('woff2'),
+        url('VistolSans-Medium.woff') format('woff'),
+        url('VistolSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-MediumItalic.eot');
+    src: local('Vistol Sans Medium Italic'), local('VistolSans-MediumItalic'),
+        url('VistolSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-MediumItalic.woff2') format('woff2'),
+        url('VistolSans-MediumItalic.woff') format('woff'),
+        url('VistolSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-ExtraBoldItalic.eot');
+    src: local('Vistol Sans ExtraBold Italic'), local('VistolSans-ExtraBoldItalic'),
+        url('VistolSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('VistolSans-ExtraBoldItalic.woff') format('woff'),
+        url('VistolSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vistol Sans';
+    src: url('VistolSans-Regular.eot');
+    src: local('Vistol Sans Regular'), local('VistolSans-Regular'),
+        url('VistolSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('VistolSans-Regular.woff2') format('woff2'),
+        url('VistolSans-Regular.woff') format('woff'),
+        url('VistolSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

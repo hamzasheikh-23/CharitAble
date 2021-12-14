@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "925397656897",
+    "project_id": "charitable-littledeeds",
+    "storage_bucket": "charitable-littledeeds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925397656897:android:8092929d9126fe74432dc0",
+        "android_client_info": {
+          "package_name": "com.example.charitable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925397656897-hum5sucmf0mrnibh4u6shubujih4f8d8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.charitable",
+            "certificate_hash": "8215283880a94af07e04c92fa23518dd6742bdac"
+          }
+        },
+        {
+          "client_id": "925397656897-1b36pv4dm95ff4ig4hvfk8jfs60bgn49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChfR5DzOhx3rGKGhI3VgQvb3u1Dm-yMmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925397656897-1b36pv4dm95ff4ig4hvfk8jfs60bgn49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
