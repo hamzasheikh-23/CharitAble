@@ -30,34 +30,34 @@
         android:layout_centerHorizontal="true"/>
 
     <EditText
-        android:id="@+id/register_userinput"
+        android:id="@+id/register_nameinput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/register_usr_img"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/input_design"
-        android:padding="10dp"
-        android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
-        android:hint="Username"/>
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:hint="Full Name"
+        android:padding="10dp" />
 
     <ImageView
         android:id="@+id/register_email_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/email_sign_30px"
-        android:layout_below="@+id/register_userinput"
+        android:layout_below="@+id/register_nameinput"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"/>
 
     <EditText
-        android:id="@+id/register_emailinput"
+        android:id="@+id/register_userinput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/input_design"
         android:layout_below="@id/register_email_img"
         android:padding="10dp"
-        android:hint="Email"
+        android:hint="Username"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginTop="5dp"/>
@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/password_30px"
-        android:layout_below="@+id/register_emailinput"
+        android:layout_below="@+id/register_userinput"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"/>
 
