@@ -6,11 +6,94 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <Button
-        android:id="@+id/logout_btn"
+    <ImageView
+        android:id="@+id/logo_back"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@color/logoColor" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/user_icon"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FFF"/>
+
+    <TextView
+        android:id="@+id/user_profile_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Logout" />
+        android:layout_below="@+id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vistol"
+        android:text="Username"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/add_donation_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_profile_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/vistol"
+        android:layout_centerHorizontal="true"
+        android:text="Add Donation"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/manage_donation_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_donation_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/vistol"
+        android:layout_centerHorizontal="true"
+        android:text="Manage Donation"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/view_donation_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manage_donation_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/vistol"
+        android:layout_centerHorizontal="true"
+        android:text="View Donation"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_donation_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/vistol"
+        android:layout_centerHorizontal="true"
+        android:text="View Donation"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
 
 </RelativeLayout>
