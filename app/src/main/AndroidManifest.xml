@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CharitAble">
         <activity
+            android:name=".ViewDonation"
+            android:exported="false" />
+        <activity
             android:name=".AddNewDonation"
             android:exported="false" />
         <activity

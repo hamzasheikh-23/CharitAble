@@ -45,6 +45,14 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        viewDonationBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this,ViewDonation.class);
+                startActivity(intent);
+            }
+        });
+
         logoutBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
